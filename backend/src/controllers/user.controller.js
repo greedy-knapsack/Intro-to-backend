@@ -1,3 +1,4 @@
+import { Post } from "../models/post.model.js";
 import { User } from "../models/user.models.js";
 
 const registerUser =  async (req,res) => {
@@ -85,6 +86,7 @@ const logoutUser = async(req,res) => {
         })
     }
 }
+
 
 export{
         registerUser,
